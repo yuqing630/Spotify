@@ -1,6 +1,3 @@
-var s = "good"
-var t = "odg"
-
 var check = function(s,t){
   var newS = s.split('')
   var newString = ''
@@ -14,4 +11,3 @@ var check = function(s,t){
   }
   return newString
 }
-check (s,t)
