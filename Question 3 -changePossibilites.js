@@ -1,6 +1,6 @@
 function coinSums (total) {
   var count = 0
-	var denominations = [1,2,3]//change this based on the coin denomination
+  var denominations = [1,2,3]//change this based on the coin denomination
   var recurse = function(num, ind){
     if (num === 0){
       count ++
