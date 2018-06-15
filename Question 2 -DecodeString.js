@@ -5,6 +5,4 @@ function decodeString(str){
 		return decodeString(result);
 	}
 	return result;
-
-
 }
